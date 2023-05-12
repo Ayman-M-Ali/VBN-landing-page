@@ -1,0 +1,90 @@
+@import "./mixins";
+
+.plan__heading,
+.network__heading,
+.testimonial__heading {
+  text-align: center;
+}
+
+.plan__text,
+.network__text,
+.testimonial__text {
+  text-align: center;
+  width: 50%;
+  margin: 20px auto 60px;
+}
+
+.text {
+	font-size: var(--font-size-16);
+	font-weight: var(--font-weight-400);
+	line-height: var(--line-height-30);
+}
+
+.plan__plans {
+  @include twoColumns ($display: grid, $grid-template-columns: repeat(3, 1fr), $gap: 50px);
+}
+
+.plan__item {
+  padding: 50px 70px;
+  border: 2px solid #DDD;
+  border-radius: var(--border-radius-10);
+  text-align: center
+}
+
+.plan__item-active {
+  border: 2px solid var(--shadow-color)
+}
+
+.h3__plan {
+  margin: 30px 0;
+}
+
+.plan__list-item {
+	display: flex;
+	align-items: center;
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-400);
+  color: var(--secondary-color-text);
+  margin-bottom: 10px;
+  line-height: var(--line-height-30);
+	gap: 20px;
+}
+
+.plan__cost {
+  font-size: var(--font-size-25);
+  font-weight: var(--font-weight-500);
+  line-height: var(--line-height-30);
+  color: var(--primary-color-text);
+}
+
+.free {
+  margin: 130px 0 20px;
+}
+
+.standard {
+  margin: 90px 0 20px;
+}
+
+.premium {
+  margin: 50px 0 20px;
+}
+
+.plan__cost-month {
+  font-weight: var(--font-weight-400);
+  color: var(--secondary-color-text);
+}
+
+.plan__button {
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-700);
+  color: var(--background-button);
+  border: 2px solid var(--background-button);
+  border-radius: var(--border-radius-50);
+  padding: 13px 63px;
+}
+
+.plan__button-active {
+  color: var(--white-color);
+  background-color: var(--background-button);
+  box-shadow: 0 12px 14px var(--shadow-color)  ;
+}

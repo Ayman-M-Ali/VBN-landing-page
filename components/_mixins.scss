@@ -1,0 +1,11 @@
+@mixin flexCenter ($display: flex, $justify-content: center, $align-items: center) {
+  display: $display;
+  justify-content: $justify-content;
+  align-items: $align-items
+}
+
+@mixin twoColumns ($display: grid, $grid-template-columns: repeat(2, 1fr), $gap: 40px) {
+  display: $display;
+	grid-template-columns: $grid-template-columns;
+  gap: $gap;
+}

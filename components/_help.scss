@@ -1,0 +1,25 @@
+@import "./mixins";
+
+.help {
+  @include flexCenter ($display: flex, $justify-content: space-between, $align-items: center);
+  position: relative;
+  padding: 60px 70px;
+  border-radius: var(--border-radius-10);
+  background-color: var(--white-color);
+  box-shadow: 0 12px 12px -2px #ccc;
+}
+
+.help__text {
+  margin: 20px 0 0;
+}
+
+.help__button {
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-700);
+  line-height: 25px;
+  padding: 17.5px 65px;
+  border-radius: 10px;
+  color: var(--white-color);
+  background-color: var(--background-button);
+  box-shadow: 0 12px 14px var(--shadow-color);
+}

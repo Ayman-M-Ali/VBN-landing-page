@@ -1,0 +1,25 @@
+@import "./mixins";
+
+.program__name {
+	font-weight: var(--font-weight-500);
+}
+
+.network__image {
+	width: 100%;
+	height: auto;
+	opacity: .7;
+}
+
+.network__image:hover {
+	opacity: 1;
+}
+
+.network__global-sponsored {
+  @include flexCenter ($display: flex, $justify-content: center, $align-items: center);
+  gap: 47.5px;
+}
+
+.global__sponsored {
+  width: 100%;
+  height: auto;
+}

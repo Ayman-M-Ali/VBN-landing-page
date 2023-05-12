@@ -1,0 +1,38 @@
+@import "./mixins";
+
+.stats {
+	@include twoColumns ($display: grid, $grid-template-columns: repeat(3, 1fr), $gap: 0);
+	align-items: center;
+	justify-items: center;
+  box-shadow: 0 12px 12px -2px #ccc;
+  border-radius: var(--border-radius-10);
+}
+
+.stats__parts {
+	@include flexCenter ($display: flex, $align-items: center);
+	gap: 36.5px;
+}
+
+.stats__image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 55px;
+	height: 55px;
+	background-color: #FFECEC;
+	border-radius: var(--border-radius-70);
+}
+
+.stats__numbers {
+	font-size: var(--font-size-25);
+	font-weight: var(--font-weight-700);
+	line-height: var(--line-height-30);
+	color: var(--primary-color-text);
+}
+
+.stats__text {
+	font-size: var(--font-size-20);
+	font-weight: var(--font-weight-400);
+	line-height: var(--line-height-30);
+	color: var(--secondary-color-text);
+}

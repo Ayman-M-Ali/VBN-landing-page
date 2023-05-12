@@ -1,0 +1,36 @@
+@import "./mixins";
+
+.landing {
+  @include twoColumns ($display: grid, $grid-template-columns: repeat(2, 1fr), $gap: 40px);
+}
+
+.landing__heading {
+  font-size: var(--font-size-50);
+  font-weight: var(--font-weight-500);
+  line-height: 70px;
+  margin-bottom: 20px;
+  color: var(--primary-color-text);
+}
+
+.landing__text,
+.help__text {
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-30);
+  color: var(--secondary-color-text);
+  margin-bottom: 50px
+}
+
+.landing__button {
+  padding: 17.5px 77.5px;
+  color: var(--white-color);
+  background-color: var(--bright-red);
+  font-weight: var(--font-weight-700);
+  border-radius: var(--border-radius-10);
+  box-shadow: 0 12px 14px var(--shadow-color);
+}
+
+.landing__image {
+	width: 100%;
+	height: auto;
+}

@@ -1,0 +1,292 @@
+<!-- This design is from figma website and this was a challenge of almdrasa.com
+https://www.figma.com/file/y4g7B9BSJsuPkI101iyF5E/FREEBIES-Landingpage-LaslesVPN-Community 
+-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Font Awesome Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+		<!-- Google Font Library -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@400;500;600;700&family=Rubik:wght@400;500;600;700;800&family=Work+Sans:wght@100;300;400;600;800&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./styles/style.css">
+		<title>LaslesVBN</title>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Start Header -->
+			<header id="header" class="header">
+				<div class="logo">
+					<img class="logo__img" src="images/logo.png" alt="Logo image">
+					<a href="#header" class="logo__name">Lasles<strong>VBN</strong></a>
+				</div>
+				<input class="burger__menu-checkbox" type="checkbox" id="menu">
+				<label for="menu" class="burger__menu">
+					<div class="menu__bar top"></div>
+					<div class="menu__bar middle"></div>
+					<div class="menu__bar bottom"></div>
+				</label>
+				<nav class="navigation">
+					<ul class="navigation__list">
+						<li class="navigation__item"><a href="#landing" class="navigation__links">About</a></li>
+						<li class="navigation__item"><a href="#features" class="navigation__links">Features</a></li>
+						<li class="navigation__item"><a href="#plan" class="navigation__links">Pricing</a></li>
+						<li class="navigation__item"><a href="#testimonial" class="navigation__links">Testimonials</a></li>
+						<li class="navigation__item"><a href="#help" class="navigation__links">Help</a></li>
+					</ul>
+				</nav>
+				<ul class="header__sign">
+					<li class="header__sign-in">Sign In</li>
+					<li class="header__sign-up">Sign Up</li>
+				</ul>
+			</header>
+			<!-- End Header -->
+			<!-- Start Landing -->
+			<section id="landing" class="landing section">
+				<div class="landing__content">
+					<h1 class="landing__heading">Want anything to be<br>easy with <strong>LaslesVPN.</strong></h1>
+					<p class="landing__text">Provide a network for all your needs with ease and fun using <span class="program__name">LaslesVPN</span> discover interesting features from us.</p>
+					<button class="landing__button">Get Started</button>
+				</div>
+				<img src="images/landing.svg" alt="landing image" class="landing__image">
+			</section>
+			<!-- End Landing -->
+			<!-- Start Stats -->
+			<section id="stats" class="stats section">
+				<div class="stats__parts stats__users">
+					<div class="stats__image">
+						<img class="stats__users-img" src="images/users.png" alt="Users">
+					</div>
+					<div class="stats__details">
+						<span class="stats__numbers">90+</span>
+						<p class="stats__text">Users</p>
+					</div>
+				</div>
+				<!-- <span class="stats__separator"></span> -->
+				<div class="stats__parts stats__location">
+					<div class="stats__image">
+						<img class="stats__location-img" src="images/location.png" alt="Location">
+					</div>
+					<div class="stats__details">
+						<span class="stats__numbers">30+</span>
+						<p class="stats__text">Location</p>
+					</div>
+				</div>
+				<!-- <span class="stats__separator"></span> -->
+				<div class="stats__parts stats__servers">
+					<div class="stats__image">
+						<img class="stats__servers-img" src="images/Servers.png" alt="Servers">
+					</div>
+					<div class="stats__details">
+						<span class="stats__numbers">50+</span>
+						<p class="stats__text">Servers</p>
+					</div>
+				</div>
+			</section>
+			<!-- End Stats -->
+			<!-- Start Features -->
+			<section id="features" class="features section">
+				<img class="features__image" src="images/features.png" alt="Features">
+				<div class="features__details">
+					<h2 class="h2__heading">We Provide Many<br>Features You Can Use</h2>
+					<p class="features__text text">You can explore the features that we provide with fun and have their own functions each feature.</p>
+					<ul class="features__list">
+						<li class="features__item"><img src="images/right check.png" alt="Right check">Powerfull online protection.</li>
+						<li class="features__item"><img src="images/right check.png" alt="Right check">Internet without borders.</li>
+						<li class="features__item"><img src="images/right check.png" alt="Right check">Supercharged VPN</li>
+						<li class="features__item"><img src="images/right check.png" alt="Right check">No specific time limits.</li>
+					</ul>
+				</div>
+			</section>
+			<!-- End Features -->
+			<!-- Start Plan -->
+			<section id="plan" class="plan section">
+				<h2 class="h2__heading plan__heading">Choose Your Plan</h2>
+				<p class="plan__text text">Let's choose the package that is best for you and explore it happily and cheerfully.</p>
+				<div class="plan__plans">
+					<div class="plan__item">
+						<img class="plan__item-img" src="images/Free.png" alt="free plan">
+						<h3 class="h3__heading h3__plan">Free Plan</h3>
+						<ul>
+							<li class="plan__list-item"><img src="images/square right check.png" alt="square right check"><p>Unlimited Bandwitch</p></li>
+							<li class="plan__list-item"><img src="images/square right check.png" alt="square right check"><p>Encrypted Connection</p></li>
+							<li class="plan__list-item"><img src="images/square right check.png" alt="square right check"><p>No Traffic Logs</p></li>
+							<li class="plan__list-item"><img src="images/square right check.png" alt="square right check"><p>Works on All Devices</p></li>
+						</ul>
+						<p class="free plan__cost">Free</p>
+						<button class="plan__button">Select</button>
+					</div>
+					<div class="plan__item">
+						<img class="plan__item-img" src="images/Standard.png" alt="Standard plan">
+						<h3 class="h3__heading h3__plan">Standard Plan</h3>
+						<ul>
+							<li class="plan__list-item"><img src="images/square right check.png" alt="square right check"><p>Unlimited Bandwitch</p></li>
+							<li class="plan__list-item"><img src="images/square right check.png" alt="square right check"><p>Encrypted Connection</p></li>
+							<li class="plan__list-item"><img src="images/square right check.png" alt="square right check"><p>No Traffic Logs</p></li>
+							<li class="plan__list-item"><img src="images/square right check.png" alt="square right check"><p>Works on All Devices</p></li>
+							<li class="plan__list-item"><img src="images/square right check.png" alt="square right check"><p>Connect Anyware</p></li>
+						</ul>
+						<p class="standard plan__cost">$9 <span class="plan__cost-month">/ mo</span></p>
+						<button class="plan__button">Select</button>
+					</div>
+					<div class="plan__item plan__item-active">
+						<img class="plan__item-img" src="images/Premium.png" alt="Premium plan">
+						<h3 class="h3__heading h3__plan">Premium Plan</h3>
+						<ul>
+							<li class="plan__list-item"><img src="images/square right check.png" alt="square right check"><p>Unlimited Bandwitch</p></li>
+							<li class="plan__list-item"><img src="images/square right check.png" alt="square right check"><p>Encrypted Connection</p></li>
+							<li class="plan__list-item"><img src="images/square right check.png" alt="square right check"><p>No Traffic Logs</p></li>
+							<li class="plan__list-item"><img src="images/square right check.png" alt="square right check"><p>Works on All Devices</p></li>
+							<li class="plan__list-item"><img src="images/square right check.png" alt="square right check"><p>Connect Anyware</p></li>
+							<li class="plan__list-item"><img src="images/square right check.png" alt="square right check"><p>Get New Features</p></li>
+						</ul>
+						<p class="premium plan__cost">$12 <span class="plan__cost-month">/ mo</span></p>
+						<button class="plan__button plan__button-active">Select</button>
+					</div>
+				</div>
+			</section>
+			<!-- End Plan -->
+			<!-- Start Global Network -->
+			<section id="network" class="network section">
+				<h2 class="h2__heading network__heading">Huge Global Network<br>of Fast VPN</h2>
+				<p class="network__text text">See <span class="program__name">LaslesVPN</span> everywhere to make it easier for you when you move locations.</p>
+				<img class="network__image" src="images/huge global.png" alt="Huge global">
+				<div class="network__global-sponsored">
+					<div><img class="global__sponsored" src="images/netflix.svg" alt="Netflix"></div>
+					<div><img class="global__sponsored" src="images/reddit.png" alt="Reddit"></div>
+					<div><img class="global__sponsored" src="images/amazon.png" alt="Amazon"></div>
+					<div><img class="global__sponsored" src="images/discord.png" alt="Discord"></div>
+					<div><img class="global__sponsored" src="images/spotify.png" alt="Spotify"></div>
+				</div>
+			</section>
+			<!-- End Global Network -->
+			<!-- Start Testimonials -->
+			<section id="testimonial" class="testimonial section">
+				<h2 class="h2__heading testimonial__heading">Trusted by Thousands of<br>Happy Customer</h2>
+				<p class="testimonial__text text">These are the stories of our customers who have joined us with great<br>pleasure when using this crazy feature.</p>
+				<div class="testimonial__opinions">
+					<div class="testimonial__opinion testimonial__active">
+						<div class="testimonial__info">
+							<div class="testimonial__pic-name">
+								<img class="testimonial__pic" src="images/testimoial 1.png" alt="Testimonial picture">
+								<div>
+									<h3 class="h3__heading">Viezh Robert</h3>
+									<p class="testimonial__origin">Warsaw, Poland</p>
+								</div>
+							</div>
+							<div class="testimonial__rate">
+								<span>4.5</span>
+								<img class="testimonial__star" src="images/star.png" alt="">
+							</div>
+						</div>
+						<p class="testimonial__opinion-text">“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.</p>
+					</div>
+					<div class="testimonial__opinion">
+						<div class="testimonial__info">
+							<div class="testimonial__pic-name">
+								<img class="testimonial__pic" src="images/testimonial 2.png" alt="Testimonial picture">
+								<div>
+									<h3 class="h3__heading testimonial__name">Yessica Christy</h3>
+									<p class="testimonial__origin">Shanxi, China</p>
+								</div>
+							</div>
+							<div class="testimonial__rate">
+								<span>4.5</span>
+								<img class="testimonial__star" src="images/star.png" alt="">
+							</div>
+						</div>
+						<p class="testimonial__opinion-text">“I like it because I like to travel far and still can connect with high speed.”.</p>
+					</div>
+					<div class="testimonial__opinion">
+						<div class="testimonial__info">
+							<div class="testimonial__pic-name">
+								<img class="testimonial__pic" src="images/testimonial 3.png" alt="Testimonial picture">
+								<div>
+									<h3 class="h3__heading testimonial__name">Kim Young Jou</h3>
+									<p class="testimonial__origin">Seoul, South Korea</p>
+								</div>
+							</div>
+							<div class="testimonial__rate">
+								<span>4.5</span>
+								<img class="testimonial__star" src="images/star.png" alt="">
+							</div>
+						</div>
+						<p class="testimonial__opinion-text">“This is very unusual for my business that currently requires a virtual private network that has high security.”.</p>
+					</div>
+				</div>
+				<div class="testimonial__other-opinions">
+					<div class="testimonial__circles">
+					<img class="testimonial__circle circle-active" src="images/Rectangle.png" alt="Testimonial circle">
+					<img class="testimonial__circle" src="images/circle.png" alt="Testimonial circle">
+					<img class="testimonial__circle" src="images/circle.png" alt="Testimonial circle">
+					<img class="testimonial__circle" src="images/circle.png" alt="Testimonial circle">
+				</div>
+				<div class="testimonial__arrows">
+					<div class="left arrow__box"><img src="images/left-arrow.png" alt="left-arrow"></div>
+					<div class="right arrow__box"><img src="images/right-arrow.png" alt="right-arrow"></div>
+				</div>
+				</div>
+			</section>
+			<!-- End Testimonials -->
+			<!-- Start Subscribe -->
+			<section id="help" class="help section">
+				<div>
+					<h2 class="h2__heading">Subscribe Now for<br>Get Special Features!</h2>
+					<p class="help__text">Let's subscribe with us and find the fun.</p>
+				</div>
+				<button class="help__button">Subscribe Now</button>
+			</section>
+			<!-- End Subscribe -->
+		</div>		
+		<!-- Start Footer -->
+		<footer class="footer">
+			<div class="footer__logo">
+				<div class="logo">
+					<img class="logo__img" src="images/logo.png" alt="Logo image">
+					<h3><a href="#header" class="logo__name">Lasles<strong>VBN</strong></a></h3>
+				</div>
+				<p class="footer__text text">Lasles <strong>VPN</strong> is a private virtual network that<br>has unique features and has high security.</p>
+				<div class="footer__socials">
+					<a href="https://github.com/Ayman-M-Ali" class="footer__social"><img class="footer_social-image" src="images/github.svg" alt="Github"></a>
+					<a href="https://codepen.io/Ayman-M-A/pens/public" class="footer__social"><img class="footer_social-image" src="images/codepen-svgrepo-com.svg" alt="Codepen"></a>
+					<a href="https://www.linkedin.com/in/ayman-mohammad-ali-7284021b1/" class="footer__social"><img class="footer_social-image" src="images/LinkedIn.svg" alt="Linkedin"></a>
+				</div>
+				<p class="footer__copy-right">©2020Lasles<strong class="copyright-strong">VPN</strong></p>
+			</div>
+			<div class="footer__product">
+				<h3 class="h3__heading footer__h3-heading">Product</h3>
+				<ul class="footer__list">
+					<li><a class="footer__links" href="#">Download</a></li>
+					<li><a class="footer__links" href="#">Pricing</a></li>
+					<li><a class="footer__links" href="#">Location</a></li>
+					<li><a class="footer__links" href="#">Servers</a></li>
+					<li><a class="footer__links" href="#">Countries</a></li>
+					<li><a class="footer__links" href="#">Blog</a></li>
+				</ul>
+			</div>
+			<div>
+				<h3 class="h3__heading footer__h3-heading">Engage</h3>
+				<ul class="footer__list">
+					<li><a class="footer__links" href="#">LaslesVPN ?</a></li>
+					<li><a class="footer__links" href="#">FAQ</a></li>
+					<li><a class="footer__links" href="#">Tutorials</a></li>
+					<li><a class="footer__links" href="#">About Us</a></li>
+					<li><a class="footer__links" href="#">Privacy Policy</a></li>
+					<li><a class="footer__links" href="#">Terms of Service</a></li>
+				</ul>
+			</div>
+			<div>
+				<h3 class="h3__heading footer__h3-heading">Earn Money</h3>
+				<ul class="footer__list">
+					<li><a class="footer__links" href="#">Affiliate</a></li>
+					<li><a class="footer__links" href="#">Become Partner</a></li>
+				</ul>
+			</div>
+		</footer>
+		<!-- End Footer -->
+	</body>
+</html>
